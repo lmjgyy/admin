@@ -1,0 +1,15 @@
+$h100: 100%;
+.layout{
+    .layout-menu{
+        height: $h100;
+        width: 300px;
+        @include flex-grow-shrink(0,0);
+        .el-menu-vertical-demo{
+            height: $h100;
+        }
+    }
+    .layout-content{
+        height: $h100;
+        @include flex-grow-shrink(1,1)
+    }
+}
